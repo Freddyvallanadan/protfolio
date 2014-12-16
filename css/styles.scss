@@ -1,0 +1,65 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@import url(http://fonts.googleapis.com/css?family=Ceviche+One);
+.wrapper{
+    background-color: #452344;
+    font-family: 'Ceviche One', cursive;
+    height: 100%
+}
+
+.pro_image{
+border: 10px solid #fff;
+}
+.right_side{
+    float: right;
+}
+.left_side{
+    float: left;
+}
+.desc{
+text-align:center;
+text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+color: #fff;
+	span{
+    display:block
+	}
+}
+@media (max-width:480px) {
+   .desc{
+   h1{
+font-size:3em;
+   }
+   span{
+   font-size:1.5em;
+   }
+   }
+}
+
+@media (min-width:481px) {
+  .desc{
+   h1{
+font-size:8em;
+   }
+   span{
+   font-size:4em;
+   }
+   }
+}
